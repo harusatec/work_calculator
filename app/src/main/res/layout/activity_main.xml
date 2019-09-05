@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/formula" android:textSize="30sp"
+                    tools:text="@string/formula_text" android:layout_span="4"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button
+                    android:text="C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/clearButton" android:textSize="24sp"/>
+            <Button
+                    android:text="+/-"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/plusMinusButton" android:textSize="24sp"/>
+            <Button
+                    android:text="％"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/percentButton" android:textSize="24sp"/>
+            <Button
+                    android:text="÷"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/divisionButton" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button
+                    android:text="７"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf7" android:textSize="24sp"/>
+            <Button
+                    android:text="８"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf8" android:textSize="24sp"/>
+            <Button
+                    android:text="９"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf9" android:textSize="24sp"/>
+            <Button
+                    android:text="×"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/multipliButton" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button
+                    android:text="４"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf4" android:textSize="24sp"/>
+            <Button
+                    android:text="５"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf5" android:textSize="24sp"/>
+            <Button
+                    android:text="６"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf6" android:textSize="24sp"/>
+            <Button
+                    android:text="ー"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/subtractionButton" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button
+                    android:text="１"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf1" android:textSize="24sp"/>
+            <Button
+                    android:text="２"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf2" android:textSize="24sp"/>
+            <Button
+                    android:text="３"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf3" android:textSize="24sp"/>
+            <Button
+                    android:text="＋"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/additionButton" android:textSize="24sp"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <Button
+                    android:text="０"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOf0" android:textSize="24sp"/>
+            <Button
+                    android:text="．"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/buttonOfComma" android:textSize="24sp"/>
+            <Button
+                    android:text="DEL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/deleteButton" android:textSize="24sp"/>
+            <Button
+                    android:text="＝"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/equalButton" android:textSize="24sp"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
